@@ -116,7 +116,7 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: "2031a0027585635b9d623692e1123e8550c5b217"
+      resolved-ref: eb557a0c2b5de7f33522805b738e146ed00cfbf2
       url: "https://github.com/ThiagoFreitasDaSilva/micro_core.git"
     source: git
     version: "0.0.1"

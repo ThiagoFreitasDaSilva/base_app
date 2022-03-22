@@ -13,6 +13,7 @@ class BaseAPPImpl extends StatelessWidget with BaseAPP {
   @override
   Widget build(BuildContext context) {
     super.registerRouters();
+    super.registerListeners();
 
     return MaterialApp(
       title: 'Micro Frontends',
