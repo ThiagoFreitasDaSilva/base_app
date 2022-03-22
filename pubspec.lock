@@ -102,6 +102,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.7.0"
+  micro_app_login:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: master
+      resolved-ref: a5f8a0abfd67de31c993a7ae3b68e65fa336b2df
+      url: "https://github.com/ThiagoFreitasDaSilva/micro_app_login.git"
+    source: git
+    version: "0.0.1"
   micro_core:
     dependency: "direct main"
     description:

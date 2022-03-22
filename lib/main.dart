@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:micro_app_login/app/micro_app_login.resolver.dart';
 import 'package:micro_core/app/base_app.dart';
 import 'package:micro_core/app/micro_app.dart';
 import 'package:micro_core/micro_core.dart';
@@ -18,7 +19,7 @@ class BaseAPPImpl extends StatelessWidget with BaseAPP {
         primarySwatch: Colors.blue,
       ),
       navigatorKey: navigatorKey,
-      initialRoute: '/',
+      initialRoute: '/login',
       onGenerateRoute: super.generateRoute,
     );
   }
@@ -28,5 +29,7 @@ class BaseAPPImpl extends StatelessWidget with BaseAPP {
 
   //Listagem de microapps
   @override
-  List<MicroAPP> get microAPPs => [];
+  List<MicroAPP> get microAPPs => [
+        MicroAPPLoginResolver(),
+      ];
 }
